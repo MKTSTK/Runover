@@ -3,12 +3,12 @@
 
 <strong>Supports Active, Passive, or Hybrid Strategies.</strong> 
 
-Active strategies take the market
+<strong>Active</strong>  strategies take the market
 
-Passive strategies make the market
+<strong>Passive</strong>  strategies make the market
 
-Hybrid strategies can be both active and passive
+<strong>Hybrid</strong>  strategies can be both active and passive
 
-Dependencies:
+<h3>Dependencies:</h3> 
 
-Pandas, Numpy, Python, all the stuff those things require, like Cython and such
+<strong>Pandas</strong>, <strong>Numpy</strong>, <strong>Python</strong>, all the stuff those things require, like <strong>Cython</strong> and such
