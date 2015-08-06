@@ -1,7 +1,7 @@
 # Runover
-Python Trading Strategy Backtesting Engine
+<h2>Python Trading Strategy Backtesting Engine</h2>
 
-Supports Active, Passive, or Hybrid Strategies. 
+<strong>Supports Active, Passive, or Hybrid Strategies.</strong> 
 
 Active strategies take the market
 
