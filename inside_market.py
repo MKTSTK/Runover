@@ -22,6 +22,11 @@ ASK      = 6
 MINUS_INF = -9999999
 PLUS_INF  =  9999999
 
+# STATUSES
+
+DEFAULT  = 7
+EXIT     = 8
+
 # represents a limit order in our inside market
 class order():
   id = 0
@@ -47,13 +52,13 @@ class order():
         self.status = FILLED
         return True, self.price
       else:
-        return False, 0.0
+        return False, trade_price
     else:
       if trade_price > self.price:
         self.status = FILLED
         return True, self.price
       else:
-        return False, 0.0
+        return False, trade_price
         
 class inside_market():
   def __init__(self, bid_price, ask_price):
