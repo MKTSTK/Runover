@@ -44,7 +44,7 @@ for price in prices:
       #print "current position = ", hmm.position
       #print "current market : ", hmm.mkt.bid.price, " x ", hmm.mkt.ask.price
       #print "current bounds : ", hmm.lower_bound, " - ", hmm.upper_bound
-      accountants[j].push_trades([(side, price)])
+      accountants[j].push_trades([(side, cpx)])
       #time.sleep(1)
     pnl_cols.append(accountants[j].get_final_open_pnl(mark_price = price))
   pnl_rows.append(pnl_cols)
