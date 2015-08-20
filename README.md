@@ -1,5 +1,5 @@
 # Runover
-<h2>Python Trading Strategy Backtesting Engine</h2>
+<h2>Python Trading Strategy Backtester</h2>
 
 <strong>Supports Active, Passive, or Hybrid Strategies.</strong> 
 
